@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.1_1
+Version:          1.1.2
 Release:          1
 Summary:          Adaptive multivariate integration over hypercubes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/cubature_1.1-2.tar.gz
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
 BuildRequires:    texlive-collection-latex 
@@ -48,4 +48,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 777005
 - Import R-cubature
 - Import R-cubature
+
 
