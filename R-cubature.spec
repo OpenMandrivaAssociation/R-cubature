@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.2
-Release:          2
+Release:          3
 Summary:          Adaptive multivariate integration over hypercubes
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
